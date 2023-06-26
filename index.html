@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WEB PERTAMA</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icons/partner.png" alt="" class="logo-img" />
+        <h1 class="logo-title">iky4star</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:rizkyyvhanessa@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Muhamad Rizki Daelami</p>
+        <p class="description">Technology Influencer From Village</p>
+        <img
+          src="assets/foto/iky4star.jfif"
+          alt="Muhamad Rizki Daelami 1"
+          class="img-foto"
+        />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya adalah programmer</p>
+        <p class="description">Ngoding aja dulu, Jagonya belakangan</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Kerjasama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="assets/icons/24-hours.png" alt="icon 1" class="icon" />
+            <p class="card-title">Service 24 Jam Nonstop</p>
+            <p class="card-description">
+              Bermain Badminton membuat saya senang dan sehat
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/hot-deal.png" alt="icon 2" class="icon" />
+            <p class="card-title">Saya Programmer Murah</p>
+            <p class="card-description">
+              biaya jasa paling murah cuman di sini aya hubungi sekarang
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/rating.png" alt="icon 3" class="icon" />
+            <p class="card-title">684 Review</p>
+            <p class="card-description">
+              Client saya sangat senang dengan pekerjaan saya
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Muhamad Rizki Daelami 2023</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "http://instagram.com/iky4star";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6289401704484";
+      }
+    </script>
+  </body>
+</html>
